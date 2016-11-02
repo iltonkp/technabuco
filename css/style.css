@@ -1,126 +1,138 @@
-/* general styles */
-html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Lato';
-
+:root {
+	--cor-azul: #6da9de;
+	--cor-rosa: #982f81;
 }
 
-.table th,td {
-   text-align: center;   
+body {
+	font-family: 'Dosis';
+	font-size: 20px;
 }
 
-.table td, .table .table-responsive td {
-  width: 300px;
+.container {
+	text-align: center;
 }
 
-@media screen and (max-width: 767px) {
-  .table-responsive > .table > tbody > tr > td {
-    white-space: normal; 
-  }
+/***********************************************************
+* Title
+/***********************************************************/
+
+.title {
+	color: #fff;
+	display: inline-block;
+	padding: 5px 20px;
+	background-color: var(--cor-rosa);
+	font-weight: bold;
+	margin-bottom: 30px;
+	transform: skew(-20deg);
+	position: relative;
+	z-index: 99;
 }
 
-/* padded section */
-.pad-section {
-  padding: 50px 0;
-}
-.pad-section img {
-  width: 100%;
+.title > span {
+	display: inline-block;
+	transform: skew(20deg);
 }
 
-/* vertical-centered text */
-.text-vcenter {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-.text-vcenter h1 {
-  font-size: 4.5em;
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
+/***********************************************************
+* Header
+/***********************************************************/
+
+.header {
+	background-image: url(../img/logo.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
 }
 
-/* additional sections */
-#home {
-  background: url(../imagem/logo.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+/***********************************************************
+* Evento
+/***********************************************************/
+
+.evento {
+	padding: 20px 0;
+	background-color: var(--cor-azul);
+	color: #fff;
 }
 
-#about {
+/***********************************************************
+* Palestras / Palestrantes
+/***********************************************************/
+
+.palestras {
+	padding: 40px 0;
 }
 
-.bg-azul{
-    background-color: #045496;
-    color: #ffffff;
-    /*height: 100%;*/
+.palestrante {
+	transition: all .3s;
 }
 
-#services .glyphicon {
-  border: 2px solid #FFFFFF;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 60px;
-  height: 140px;
-  line-height: 140px;
-  text-align: center;
-  vertical-align: middle;
-  width: 140px;
+.palestrante:hover {
+	background-color: #f4f4f4;
+	transform: translateY(15px);
 }
 
-#information {
-  background: url(../images/estate.jpg) no-repeat center center fixed; 
-  display: table;
-  height: 800px;
-  position: relative;
-  width: 100%;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-#information .panel {
-  opacity: 0.85;
+.bio-palestrante {
+	font-size: 16px;
 }
 
-#google_map {
-  height: 500px;
+.img-palestrante {
+	margin-top: 10px;
 }
 
-footer {
-  padding: 20px 0;
-}
-footer .glyphicon {
-  color: #333333;
-  font-size: 60px;
-}
-footer .glyphicon:hover {
-  color: #306d9f;
+/***********************************************************
+* PProgramacao
+/***********************************************************/
+
+.programacao {
+	background-color: var(--cor-azul);
+	text-align: center;
+	color: #fff;
+	padding: 40px 0;
 }
 
-.speaker_img{
-  width: 304px;
-  height: 236px;
-}
+/***********************************************************
+* Mapa
+/***********************************************************/
 
-.inscricao{
-  border-right: solid 1px #ffffff; 
-  /*height: 400px;*/
+.mapa {
+	/*background-color: var(--cor-azul);*/
+	padding: 0;
+	height: 450px;
 }
 
 #map {
-  width:100%;
-  height:350px;
+	/*width: 50vw;*/
+	top: -130px;
+	height: 450px;
 }
 
-.textoPrincipal{
-  color: #b42f98;
-  text-align: center;  
+/***********************************************************
+* Inscrição
+/***********************************************************/
+
+.incricao {
+	background-color: var(--cor-azul);
+	color: #fff;
+}
+
+label {
+	text-align: left;
+}
+
+.incricao input, 
+.incricao select, 
+.incricao textarea {
+	color: #bec1c6;
+}
+
+textarea {
+	min-height: 8.5rem;
+}
+
+.botao-enviar, .botao-enviar:hover {
+	background-color: var(--cor-rosa);
+	border-color: var(--cor-rosa);
+	color: #fff;
 }
