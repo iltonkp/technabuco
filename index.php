@@ -31,11 +31,11 @@
 					<h1 class="title">
 						<span>O Evento</span>
 					</h1>
-					<p>A Tech Nabuco surgiu como uma iniciativa dos cursos CST em Redes de Computadores e Sistemas de Informação da Faculdade Joaquim Nabuco – Unidade Recife e a sua segunda edição acontecerá nos dias 09, 10 e 11 de Outubro.</p>
+					<p>A Tech Nabuco surgiu como uma iniciativa dos cursos CST em Redes de Computadores e Sistemas de Informação da Faculdade Joaquim Nabuco – Unidade Recife e a sua segunda edição acontecerá nos dias 10 e 11 de Novembro de 2016.</p>
 
-					<p>É um evento destinado a estudantes, docentes e profissionais de computação do estado de Pernambuco. O objetivo é integrar cada vez mais o mercado e a academia, ao mesmo tempo que despertamos o espírito empreendedor dos alunos. A pré-inscrição pode ser feita até o dia 08/10/2013 e as vagas são limitadas. </p>
+					<p>É um evento destinado a estudantes, docentes e profissionais de computação do estado de Pernambuco. O objetivo é integrar cada vez mais o mercado e a academia, ao mesmo tempo que despertamos o espírito empreendedor dos alunos. As vagas são limitadas. </p>
 
-					<p>Para confirmar sua inscrição é preciso doar um pacote de fraldas, que deve ser entregue na assessoria de coordenação (1ºandar da Joaquim Nabuco Recife). Verifique a programação detalhada.</p>
+					<p>Para confirmar sua inscrição é preciso preencher o fomulário de inscrição e doar um pacote de fraldas, que deve ser entregue na assessoria de coordenação (1ºandar da Joaquim Nabuco Recife). Verifique a programação detalhada.</p>
 				</div>
 			</section>
 
@@ -47,19 +47,19 @@
 					</h1>
 					<div class="linha">
 						<div class="tres colunas palestrante">
-							<img src="img/palestrante.jpg" alt="" class="u-width-100 img-palestrante">
-							<h2>Palestrante 1</h2>
-							<p class="bio-palestrante">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugit totam illum modi natus dicta rem laudantium sit earum aliquam!</p>
+							<img src="img/heron_fabio.png" alt="" class="u-width-100 img-palestrante">
+							<h2>Heron Santos</h2>
+							<p class="bio-palestrante">Engenharia Civil pela UFPE em 1989. Tendo atuado como Gerente de Informática por mais de 10 anos e atualmente é consultor e professor em gerenciamento de projetos. Possui as certificações PMP, PMI-SP e PMI-RMP em Gerenciamento de Projetos pelo Project Management Institute (PMI) e também como Especialista em Gerenciamento de Projetos com MS-Project (MCTS).</p>
 						</div>
 						<div class="tres colunas palestrante">
-							<img src="img/palestrante.jpg" alt="" class="u-width-100 img-palestrante">
-							<h2>Palestrante 2</h2>
-							<p class="bio-palestrante">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugit totam illum modi natus dicta rem laudantium sit earum aliquam!</p>
+							<img src="img/gilberto_santana.jpg" alt="" class="u-width-100 img-palestrante">
+							<h2>Gilberto Santana</h2>
+							<p class="bio-palestrante">Fez sua inserção em tecnologia em 1982. Participou de projetos com a secretárias de Saúde em muitos estados brasileiros. Consultor linux pela FGV/SP por 4 (quatro) anos. Contribuiu em equipes de novas empresas. Atualmente é apresentador do programa MATÉRIA ON AIR no youtube e jornalista no projeto materiaprimape no facebook. </p>
 						</div>
 						<div class="tres colunas palestrante">
-							<img src="img/palestrante.jpg" alt="" class="u-width-100 img-palestrante">
-							<h2>Palestrante 3</h2>
-							<p class="bio-palestrante">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugit totam illum modi natus dicta rem laudantium sit earum aliquam!</p>
+							<img src="img/milton_moraes.jpg" alt="" class="u-width-100 img-palestrante">
+							<h2>Milton Moraes</h2>
+							<p class="bio-palestrante"> Professor formador do IFPE. Consultor de TI da Confidence. Colaborador da Plataforma OPENREDU. Mestrando em Ciência da Computação - CIn-UFPE e especialista em Segurança de Redes. </p>
 						</div>
 						<div class="tres colunas palestrante">
 							<img src="img/palestrante.jpg" alt="" class="u-width-100 img-palestrante">
@@ -249,10 +249,10 @@
 								</div>
 
 								<label>
-							    <input type="checkbox"> Possui necessidade especial?
+							    <input type="checkbox"> Possui algum tipo de deficiência?
 							  </label>
 
-								<label for="texto">Qual tipo de Ajuda?</label>
+								<label for="texto">Qual tipo de Deficiência?</label>
 								<textarea name="message" id="texto" cols="30" rows="20" class="u-width-100"></textarea>
 
 							  <button class="botao u-width-100 botao-enviar">Enviar</button>
