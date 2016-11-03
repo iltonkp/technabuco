@@ -276,13 +276,17 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td>20:00 – 20:45</td>
             <td>Cleyton Ferreira - (SDN)</td>
             <td>Arthur Carvalho - "</td>
-            <td>Petrônio (Lab 4C) - Academia cisco (18:30 às 21:00h)</td>
-			<td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web (18:30 às 21:00h)</td>
+            <td>Eder Gondim (5A) - Apresentação e implementação do Windows Azure – Parte II (18:30 às 21:00h)</td>
+	    <td>Petrônio (Lab 4C) - Academia cisco </td>
+			<td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web </td>
           </tr>
           <tr>
             <td>21:00 – 21:45</td>
             <td>Allan Melo (Programação reativa com RXJava)</td>
             <td>Carlos Eduardo - "O uso da criptografia em SVEs"</td>
+	    <td>Eder Gondim (5A) - Apresentação e implementação do Windows Azure – Parte II (18:30 às 21:00h)</td>
+	    <td>Petrônio (Lab 4C) - Academia cisco </td>
+	    <td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web </td>
             <td>Nicolau - Design UI / UX (18:00 às 21:00h)</td>
           </tr>
       </tbody>
