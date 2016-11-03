@@ -11,16 +11,19 @@
 	</head>
 	<body>
 		<!-- HEADER -->
-		<header class="header">
-			<!-- <div class="section"></div> -->
-<!-- 			<nav>
-				<ul>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
-					<li><a href=""></a></li>
+		<header id="inicio" class="header">
+			<nav class="menu-container">
+				<ul class="menu">
+					<li><a href="#inicio">Inicio</a></li>
+					<li><a href="#evento">O Evento</a></li>
+					<li><a href="#palestras">Palestrantes</a></li>
+					<li><a href="#programacao">Programação</a></li>
+					<li><a href="#local">Local</a></li>
+					<li><a href="#inscricao">Inscrição</a></li>
 				</ul>
-			</nav> -->
+			</nav>
 		</header>
+
 
 		<!-- MAIN -->
 		<main>

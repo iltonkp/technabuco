@@ -3,6 +3,10 @@
 	--cor-rosa: #982f81;
 }
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Dosis';
 	font-size: 20px;
@@ -47,6 +51,67 @@ body {
 }
 
 /***********************************************************
+* Menu
+/***********************************************************/
+
+.menu-container {
+	margin: 0 auto;
+	margin-left: 388px;
+	width: 960px;
+}
+
+.menu {
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+	list-style: none;
+	background-color: var(--cor-rosa);
+	transform: skew(-20deg);
+}
+
+.menu li:hover {
+	background-color: var(--cor-azul);
+}
+
+.social {
+	margin-left: 10px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 25px;
+	transform: skew(20deg);
+}
+
+@media (max-width: 762px) {
+	.menu-container {
+		width: 100%;
+		margin-left: auto;
+		height: 30px;
+	}
+
+	.menu {
+		width: 100vw;
+		flex-direction: column;
+	}
+
+	.menu li {
+		transform: skew(0deg);
+		margin: 0;
+	}
+
+	.menu a {
+		width: 100%;
+		transform: skew(0deg);
+	}
+}
+
+/***********************************************************
 * Evento
 /***********************************************************/
 
@@ -82,7 +147,7 @@ body {
 }
 
 /***********************************************************
-* PProgramacao
+* Programacao
 /***********************************************************/
 
 .programacao {
@@ -92,18 +157,20 @@ body {
 	padding: 40px 0;
 }
 
+table {
+	background-color: #fff;
+	color: #333;
+}
 /***********************************************************
 * Mapa
 /***********************************************************/
 
 .mapa {
-	/*background-color: var(--cor-azul);*/
 	padding: 0;
 	height: 450px;
 }
 
 #map {
-	/*width: 50vw;*/
 	top: -130px;
 	height: 450px;
 }
@@ -111,11 +178,6 @@ body {
 /***********************************************************
 * Inscrição
 /***********************************************************/
-
-.incricao {
-	background-color: var(--cor-azul);
-	color: #fff;
-}
 
 label {
 	text-align: left;
@@ -131,7 +193,8 @@ textarea {
 	min-height: 8.5rem;
 }
 
-.botao-enviar, .botao-enviar:hover {
+.botao-enviar, 
+.botao-enviar:hover {
 	background-color: var(--cor-rosa);
 	border-color: var(--cor-rosa);
 	color: #fff;
