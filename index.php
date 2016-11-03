@@ -120,8 +120,8 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <th>AUDITORIO (200 p.)</th>
             <th>Workshop Segurança (80 p.)</th>
             <th>Laboratório 1 (30 p.)</th>
-			<th>Laboratório 2 (30 p.)</th>
-			<th>Laboratório 3 (30 p.)</th>
+	    <th>Laboratório 2 (30 p.)</th>
+	    <th>Laboratório 3 (30 p.)</th>
           </tr>
         </thead>
 		<tbody>
@@ -130,8 +130,8 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td class="text-center">-</td>
             <td class="text-center">-</td>
             <td class="text-center">José Mario - Capacitação em MSPROJECT</td>
-			<td class="text-center">-</td>
-			<td class="text-center">-</td>
+	    <td class="text-center">Petrônio (Lab 4C) - Academia CISCO</td>
+	    <td class="text-center">-</td>
 			
           </tr>
 		<thead>
@@ -170,7 +170,7 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td>20:00 – 20:45</td>
             <td>Heron Santos - "BIM-LIN-GP, As tendências da Engenharia e Arquitetura" </td>
             <td>Paulo Perris - "Palestra: Segurança em BYOD" </td>
-            <td>Petrônio (Lab 4C) - Academia CISCO (9:00 às 12h e 18:30 às 21:00h)</td>
+            <td>Petrônio (Lab 4C) - Academia CISCO </td>
           </tr>
           <tr>
             <td>20:00 – 20:45</td>
