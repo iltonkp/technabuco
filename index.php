@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="./css/normalize.css">
 		<link rel="stylesheet" href="./css/organico.min.css">
 		<link rel="stylesheet" href="./css/style.css">
+		
 	</head>
 	<body>
 		<!-- HEADER -->
@@ -29,7 +30,7 @@
 		<main>
 
 			<!-- EVENTO -->
-			<section class="evento">
+			<section class="evento" id="evento">
 				<div class="container">
 					<h1 class="title">
 						<span>O Evento</span>
@@ -43,7 +44,7 @@
 			</section>
 
 			<!-- PALESTRAS -->
-			<section class="palestras">
+			<section class="palestras" id="palestras">
 				<div class="container">
 					<h1 class="title">
 						<span>Palestrantes</span>
@@ -105,7 +106,7 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
 			</section>
 
 			<!-- PROGRAMAÇÃO -->
-			<section class="programacao">
+			<section class="programacao" id="programacao">
 				<div class="container">
 					<h1 class="title">
 						<span>Programação</span>
@@ -276,7 +277,7 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
 			</section>
 
 			<!-- MAPA -->
-			<section class="mapa">
+			<section class="mapa" id="local">
 				<div class="container">
 					<h1 class="title">
 						<span>Localização</span>
@@ -286,7 +287,7 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
 			</section>
 
 			<!-- INSCRIÇÃO/LOCAL -->
-			<section class="incricao">
+			<section class="incricao" id="inscricao">
 				<div class="container">
 					<h1 class="title">
 						<span>Inscrição</span>
@@ -297,18 +298,18 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
 								<div class="linha">
 									<div class="seis colunas">
 										<label for="">Nome</label>
-										<input type="text" id="nome" placeholder="Nome" class="u-width-100" name="name">
+										<input type="text" id="nome" placeholder="Nome" class="u-width-100" name="name" required="ture">
 									</div>
 									<div class="seis colunas">
 										<label for="">Matricula</label>
-										<input type="text" id="matricula" placeholder="Matricula" name="matricula" class="u-width-100">
+										<input type="text" id="matricula" placeholder="Matricula" name="matricula" class="u-width-100" required="ture">
 									</div>
 								</div>
 
 								<div class="linha">
 									<div class="seis colunas">
 										<label for="email">Email</label>
-										<input type="email" id="email" placeholder="Email" class="u-width-100" name="email">
+										<input type="email" id="email" placeholder="Email" class="u-width-100" name="email" required="ture">
 									</div>
 									<div class="seis colunas">
 										<label for="unidade">Unidade</label>
@@ -341,14 +342,36 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
 		<!-- SCRIPTS -->
 		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD6co_4p2uP1fjGkP5D6VozAMeBmEeu8F0"></script>
 		<script src="js/map.js"></script>
-		<?php 
-    if(isset($_GET['inscrito'])){ ?>
-
-      <script src="js/tech.js"></script> 
-   <?php    
-      echo "<script>notify();</script>";
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		<script src="js/notify.min.js"></script>
+		<script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+              return false;
+        }
+      }
+    });
+  });
+  </script>
+  <script src="js/tech.js"></script> 
+<?php 
+	
+    if(isset($_GET['inscrito'])){ 
+    	echo "<script>notify()</script>";
     }
-  ?>
+
+}
+    
+
+?>
+	
 	</body>
 </html>
  
