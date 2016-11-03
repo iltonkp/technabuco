@@ -150,40 +150,44 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td class="text-center">Crendeciamento</td>
             <td class="text-center">Crendeciamento</td>
             <td class="text-center">Crendeciamento</td>
-			<td class="text-center">Crendeciamento</td>
+	    <td class="text-center">Crendeciamento</td>
+ 	    <td class="text-center">Crendeciamento</td>
+		  
 			
           </tr>
           <tr>
             <td class="text-center">18:25 – 18:50</td>
-            <td class="text-center">Abertura (Coordenações de Curso)</td>
+            <td class="text-center">Abertura (Coordenações de Curso) </td>
+	    <td class="text-center">Abertura (Coordenações de Curso)</td>
             <td class="text-center">Abertura (Coordenações de Curso)</td> 
             <td class="text-center">Abertura (Coordenações de Curso)</td> 
-			<td class="text-center">Abertura (Coordenações de Curso)</td> 
+	    <td class="text-center">Abertura (Coordenações de Curso)</td> 
           </tr>
           <tr>
             <td>19:00 – 19:45</td>
             <td>Erick Simões - Makerama " Movimento Maker" </td>
             <td>Milton Morais - "Metodologia para apoiar Maturidade em Configurações de Segurança de Servidor em um Ambiente de Data Center" </td>
             <td>Eder Gondim (Lab 5A) - Apresentação e implementação do Windows Azure – Parte I (18:30 às 21:00h) </td>
+		  <td>Petrônio (Lab 4C) - Academia CISCO </td> 
+		  <td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web </td>
           </tr>
           <tr>
             <td>20:00 – 20:45</td>
             <td>Heron Santos - "BIM-LIN-GP, As tendências da Engenharia e Arquitetura" </td>
             <td>Paulo Perris - "Palestra: Segurança em BYOD" </td>
-            <td>Petrônio (Lab 4C) - Academia CISCO </td>
+            <td>Eder Gondim (Lab 5A) - Apresentação e implementação do Windows Azure – Parte I</td>
+		  <td>Petrônio (Lab 4C) - Academia CISCO </td> 
+		  <td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web</td>
           </tr>
           <tr>
             <td>20:00 – 20:45</td>
             <td>"Arturgil Oliveira Palestra: Utilizando o melhor do SCRUM para seu ambiente corporativo.</td>
             <td>Enio Cesar "Investigação em meio digital: enveredando como perito em Computação Forense" </td>
-            <td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web (18:30 às 21:00h)</td>
+            <td>Eder Gondim (Lab 5A) - Apresentação e implementação do Windows Azure – Parte I (18:30 às 21:00h) </td>
+		  <td>Petrônio (Lab 4C) - Academia CISCO </td> 
+		  <td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web</td>
           </tr>
-		  <tr>
-            <td>- </td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-          </tr>
+		  
       </tbody>
     </table> <!-- encerrei o primeiro bloco vou começar o segundo -->
     <table class="table table-hover">
@@ -203,27 +207,32 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td>Credenciamento</td>
             <td>Credenciamento</td>
             <td>Credenciamento</td>
+		  <td>Credenciamento</td>
+            <td>Credenciamento</td>
           </tr>
           <tr>
             <td>09:00 – 09:45</td>
             <td>Gilberto Santana - "O quão Social é sua rede?"</td>
             <td>Não havera worshop de segurança pela manhã</td>
             <td>José Mario (Lab a Defenir) - Capacitação em MSPROJECT (9:00 às 12:00h)</td>
-			<td>Petrônio (Lab 4C) - Academia cisco (9:00 às 12h)</td>
+			<td>Petrônio (Lab 4C) - Academia Cisco </td>
+		  <td>-</td>
           </tr>
           <tr>
             <td>10:00 – 10:45</td>
             <td>Adilson & Allyson Andrade - Comunicação Assitiva </td>
             <td>Não havera worshop de segurança pela manhã</td>
-            <td>José Mario (Lab a Defenir) - Capacitação em MSPROJECT (9:00 às 12:00h)</td>
-			<td>Petrônio (Lab 4C) - Academia cisco (9:00 às 12h)</td>
+            <td>José Mario (Lab a Defenir) - Capacitação em MSPROJECT</td>
+			<td>Petrônio (Lab 4C) - Academia Cisco </td>
+		  <td>-</td>
           </tr>
           <tr>
             <td>11:00 – 11:45</td>
             <td>Wellinton (Startup e Ferramenta de servicedesk OTRS.) & Lidiany (O empreendedorismo e as startups)</td>
             <td>Não havera worshop de segurança pela manhã</td>
-            <td>José Mario (Lab a Defenir) - Capacitação em MSPROJECT (9:00 às 12:00h)</td>
-			<td>Petrônio (Lab 4C) - Academia cisco (9:00 às 12h)</td>
+            <td>José Mario (Lab a Defenir) - Capacitação em MSPROJECT </td>
+			<td>Petrônio (Lab 4C) - Academia cisco </td>
+		  <td>-</td>
           </tr>
       </tbody>
     </table>
@@ -232,8 +241,10 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
           <tr>
             <th>Dia 10/11 - Noite</th>
             <th>AUDITORIO (200 p.)</th>
-            <th>Workshop Segurança (80p)</th>
-            <th>LABORATORIO (30 p.)</th>
+            <th>Workshop Segurança (80 p.)</th>
+            <th>Laboratório 1 (30 p.)</th>
+			<th>Laboratório 2 (30 p.)</th>
+			<th>Laboratório 3 (30 p.)</th>
           </tr>
         </thead>
         <tbody>
@@ -242,11 +253,15 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td>Credenciamento</td>
             <td>Credenciamento</td>
             <td>Credenciamento</td>
+		  <td>Credenciamento</td>
+            <td>Credenciamento</td>
           </tr>
           <tr>
             <td>18:25 – 18:50</td>
             <td>Abertura (Coordenações de Curso)</td>
             <td>Abertura (Coordenações de Curso)</td>
+            <td>Abertura (Coordenações de Curso)</td>
+		  <td>Abertura (Coordenações de Curso)</td>
             <td>Abertura (Coordenações de Curso)</td>
           </tr>
           <tr>
@@ -254,6 +269,8 @@ Atuo aproximadamente há 17 anos na área de informática e como últimas experi
             <td>Djalma - (TSM & TDP- IBM)</td>
             <td>Jallison Fontes - "Palestra: Roteadores Domésticos mais Seguros utilizando Software Livre"</td>
             <td>Eder Gondim (5A) - Apresentação e implementação do Windows Azure – Parte II (18:30 às 21:00h)</td>
+	    <td>Petrônio (Lab 4C) - Academia cisco </td>
+			<td>Lenin (Lab 3A) - Automação de Teste de Sistemas Web </td>
           </tr>
           <tr>
             <td>20:00 – 20:45</td>
