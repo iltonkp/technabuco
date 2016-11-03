@@ -111,13 +111,13 @@
           </tr>
           <tr>
             <td>20:00 – 20:45</td>
-            <td>Heron Santos - "BIM-LIN-GP, As tendências da Engenharia e Arquitetura" </td>
+            <td>Heron Santos - "Um novo horizonte para TI, através do BIM." </td>
             <td>Paulo Perris - "Palestra: Segurança em BYOD" </td>
             <td>Petrônio (4C)</td>
           </tr>
           <tr>
             <td>20:00 – 20:45</td>
-            <td>"Celso Caldeira Sant'Anna Filho Palestra: Introdução ao Raspberry Pi"</td>
+            <td>"Arturgil Oliveira - Utilizando o melhor do SCRUM para seu ambiente corporativo"</td>
             <td>Enio Cesar "Investigação em meio digital: enveredando como perito em Computação Forense" </td>
             <td>Lenin (3A)</td>
           </tr>
